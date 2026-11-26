@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #f85606;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px; 
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 45px;
+    padding-right: 12%; 
+    height: 25px; 
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
