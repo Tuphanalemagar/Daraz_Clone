@@ -1,1 +1,49 @@
-123
+Questioin:
+1. what is git branch?
+2. What is git ignore file?
+3. What is README.md file?
+
+1. What is Git Branch?
+A Git branch is a separate line of development in a Git repository that allows developers to work on different features, make changes, or fix bugs without affecting the main project.
+
+Key Points:
+- It allows multiple developers to work on the same project.
+- It helps develop new features without modifying the main code.
+- Changes made in one branch do not directly affect other branches.
+- Branches can be merged when the work is completed.
+Example:
+
+Suppose you are developing an e-commerce website. You can create different branches for different tasks:
+- main – Main project.
+- login – Developing the login page.
+- navbar – Developing the navigation bar.
+- payment – Developing the payment system.
+
+
+2. What is a Git Ignore File?
+A .gitignore file is a configuration file in Git that specifies which files and folders should be ignored by Git and should not be tracked or uploaded to the GitHub repository.
+
+Key Points:
+- It prevents unnecessary files from being tracked.
+- It helps keep the repository clean and organized.
+- It can exclude temporary files, configuration files, and sensitive information.
+- It does not automatically remove files that Git is already tracking.
+Example:
+
+Suppose you are working on a Python project. You may want Git to ignore:
+- __pycache__/ – Python cache folder.
+- .env – Environment variables and secret information.
+- node_modules/ – Node.js dependencies.
+- *.log – Log files.
+
+3. What is a README.md File?
+A README.md file is a documentation file written in Markdown language that provides information about a project, including its purpose, features, installation instructions, usage, and other important details.
+
+It is usually placed in the root directory of a project and is displayed on the GitHub repository homepage.
+
+Key Points:
+- It introduces the project to other developers.
+- It explains the purpose and functionality of the project.
+- It provides installation and usage instructions.
+- It can include images, links, code snippets, and project details.
+- .md stands for Markdown.
